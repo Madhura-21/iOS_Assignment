@@ -12,7 +12,7 @@ struct LandingScreen: View {
                 HStack(alignment: .center, spacing: 20) {
                     NavigationLink(destination: SignupScreen(), label: {
                         Text("Signup")
-                            .foregroundStyle(Color.black)
+                            .foregroundStyle(Color.blue)
                             .padding()
                             .background {
                                 RoundedRectangle(cornerRadius: 8)
@@ -21,7 +21,7 @@ struct LandingScreen: View {
                     })
                     NavigationLink(destination: LoginScreen(), label: {
                         Text("Login")
-                            .foregroundStyle(Color.black)
+                            .foregroundStyle(Color.blue)
                             .padding()
                             .background {
                                 RoundedRectangle(cornerRadius: 8)
